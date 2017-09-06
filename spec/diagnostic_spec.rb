@@ -1,23 +1,25 @@
+# frozen_string_literal: true
+
 require_relative '../lib/diagnostic.rb'
 RSpec.describe Diagnostic do
-  cusa_preamble = <<-PREAMBLE
-We the People of the United States, in Order to form a more
-perfect Union, establish Justice, insure domestic
-Tranquility, provide for the common defence, promote the
-general Welfare, and secure the Blessings of Liberty to
-ourselves and our Posterity, do ordain and establish this
-Constitution for the United States of America.
-  PREAMBLE
+  cusa_preamble = <<~PREAMBLE
+    We the People of the United States, in Order to form a more
+    perfect Union, establish Justice, insure domestic
+    Tranquility, provide for the common defence, promote the
+    general Welfare, and secure the Blessings of Liberty to
+    ourselves and our Posterity, do ordain and establish this
+    Constitution for the United States of America.
+    PREAMBLE
 
-  doi_preamble = <<-DOI
-When in the Course of human events, it becomes necessary for
-one people to dissolve the political bands which have
-connected them with another, and to assume among the powers
-of the earth, the separate and equal station to which the
-Laws of Nature and of Nature's God entitle them, a decent
-respect to the opinions of mankind requires that they should
-declare the causes which impel them to the separation.
-  DOI
+  doi_preamble = <<~DOI
+    When in the Course of human events, it becomes necessary for
+    one people to dissolve the political bands which have
+    connected them with another, and to assume among the powers
+    of the earth, the separate and equal station to which the
+    Laws of Nature and of Nature's God entitle them, a decent
+    respect to the opinions of mankind requires that they should
+    declare the causes which impel them to the separation.
+    DOI
 
   before(:example) do
     @response = Diagnostic.new
@@ -89,7 +91,7 @@ declare the causes which impel them to the separation.
 
   context 'transform method' do
     it 'returns %w(All Caps Now) when passed %w(all Caps Now)' do
-      expect(@response.transform(%w(all Caps Now))).to eq(%w(All Caps Now))
+      expect(@response.transform(%w[all Caps Now])).to eq(%w[All Caps Now])
     end
   end
 
