@@ -4,21 +4,21 @@
 
 ## Prerequisites
 
--   [Ruby Enumerable Built
+- [Ruby Enumerable Built
     Ins](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-builtins)
--   [Ruby Enumerable and
+- [Ruby Enumerable and
     Comparable](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-custom)
--   [Ruby Enumerable
+- [Ruby Enumerable
     IO](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-io) (optional)
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies with `bundle install`.
-1.  Create and checkout a new branch, named `response`.
-1.  Follow the directions given in [lib/diagnostic.rb](lib/diagnostic.rb).
-1.  Before the allotted time is up, push to your fork and issue a pull request.
+1. Fork and clone this repository.
+1. Change into the new directory.
+1. Install dependencies with `bundle install`.
+1. Create and checkout a new branch, named `response`.
+1. Follow the directions given in [lib/diagnostic.rb](lib/diagnostic.rb).
+1. Before the allotted time is up, push to your fork and issue a pull request.
 
 Your pull request description should contain a "fist to five" for comfort and
 clarity. Additionally, you should mention the resources you used to help you
@@ -52,13 +52,13 @@ When you are done, commit, push your changes, and submit a pull request.
 
 Developers should run these often!
 
--   `bin/rake nag` (or `bundle exec rake nag`):
+- `bin/rake nag` (or `bundle exec rake nag`):
     runs code quality analysis tools on your code and complains.
--   `bin/rake test` (or `bundle exec rake test`): runs automated tests.
--   `bin/rake` will run both `nag` and `test`
+- `bin/rake test` (or `bundle exec rake test`): runs automated tests.
+- `bin/rake` will run both `nag` and `test`
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
