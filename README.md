@@ -6,10 +6,8 @@
 
 - [Ruby Enumerable Built
     Ins](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-builtins)
-- [Ruby Enumerable and
-    Comparable](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-custom)
 - [Ruby Enumerable
-    IO](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-io) (optional)
+    Comparable](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-comparable)
 
 ## Instructions
 
