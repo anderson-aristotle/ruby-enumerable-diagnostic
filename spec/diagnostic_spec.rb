@@ -94,15 +94,4 @@ RSpec.describe Diagnostic do
       expect(@response.transform(%w[all Caps Now])).to eq(%w[All Caps Now])
     end
   end
-
-  context 'read_file' do
-    xit 'returns CUSA preamble for `data/cusa-preamble.txt`' do
-      expect(@response.read_file('data/cusa-preamble.txt')).to\
-        eq(cusa_preamble.tr("\n", ' ').chop)
-    end
-    xit 'returns DOI preamble for `data/doi-preamble.txt`' do
-      expect(@response.read_file('data/doi-preamble.txt')).to\
-        eq(doi_preamble.tr("\n", ' ').chop)
-    end
-  end
 end
