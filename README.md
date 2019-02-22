@@ -4,8 +4,6 @@
 
 ## Prerequisites
 
-- [Ruby Enumerable Built
-    Ins](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-builtins)
 - [Ruby Enumerable
     Comparable](https://git.generalassemb.ly/ga-wdi-boston/ruby-enumerable-comparable)
 
